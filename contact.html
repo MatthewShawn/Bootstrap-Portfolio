@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Bootstrap Portfolio</title>
+
+    <!-- We need to bring in the bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body class="page-background" ;>
+
+
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <a class="navbar-brand mb-0 ml-5 text-white h1">Matthew McDonald</a>
+
+        <!--<ul class="nav justify-content-end">-->
+        <ul class="navbar-nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+
+    </nav>
+
+    <!-- Main Body goes in Container -->
+    <div class="container">
+        <row>
+            <div class="col-sm-12 ml-0">
+                <h2 class=header-font>Contact</h2>
+            </div>
+        </row>
+
+
+
+        <form>
+            <div class="form-group">
+                <label for="theirName">Name</label>
+                <input type="text" class="form-control" id="theirName" aria-describedby="Name" placeholder="John Smith">
+
+            </div>
+            <div class="form-group">
+                <label for="theirEmail">Email</label>
+                <input type="email" class="form-control" id="theirEmail" placeholder="example@gmail.com">
+            </div>
+
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea class="form-control" id="theirMessage" rows="8" placeholder="Simple message text."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        &copy Copyright;
+    </footer>
+
+</body>
+
+</html>
