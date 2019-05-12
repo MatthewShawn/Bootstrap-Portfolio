@@ -146,6 +146,14 @@ a:hover {
     border: 2px solid black;
 }
 
+.big-door {
+    display: bock;
+    max-width: 750px;
+    max-height: 750px;
+    width: auto;
+    height: auto;
+}
+
 .box-label {
     position: relative;
     z-index: 20;
@@ -178,9 +186,18 @@ body {
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
+    /* position: absolute;
+   // bottom: 0;*/
     width: 100%;
+    border-style: solid none none none;
+    border-top-color: #4aaaa5;
+    border-top-width: 8px;
+    background-color: grey;
+    text-align: center;
+    font-size: 10px;
+    height: 40px;
+    color: #dddddd;
+    padding-top: 15px;
 }
 
 
